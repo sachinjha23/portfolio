@@ -6,9 +6,9 @@ var item2 = document.getElementById("item2");
 var item3 = document.getElementById("item3");
 
 function work(){
-    homes.style.transform = "translateX(110%)"
-    works.style.transform = "translateX(0%)"
-    resumes.style.transform = "translateX(110%)"
+    homes.style.display = "none"
+    works.style.display = "block"
+    resumes.style.display = "none"
     works.style.transition = "0.5s"
     homes.style.transition = "0s"
     resumes.style.transition = "0s"
@@ -18,9 +18,9 @@ function work(){
 
 }
 function home(){
-    homes.style.transform = "translateX(0%)"
-    works.style.transform = "translateX(110%)"
-    resumes.style.transform = "translateX(110%)"
+    homes.style.display = "block"
+    works.style.display = "none"
+    resumes.style.display = "none"
     works.style.transition = "0s"
     homes.style.transition = "0.5s"
     resumes.style.transition = "0s"
@@ -30,9 +30,9 @@ function home(){
 
 }
 function resume(){
-    homes.style.transform = "translateX(110%)"
-    works.style.transform = "translateX(110%)"
-    resumes.style.transform = "translateX(0%)"
+    homes.style.display = "none"
+    works.style.display = "none"
+    resumes.style.display = "block"
     works.style.transition = "0s"
     homes.style.transition = "0s"
     resumes.style.transition = "0.5s"
