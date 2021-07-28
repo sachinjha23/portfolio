@@ -458,3 +458,9 @@ body{
 }
 
 
+
+@media (max-width:1000px){
+    .home .left .links #btn2{
+        display:none;
+    }
+
