@@ -354,9 +354,7 @@ body{
         width:120px;
         height: 270px;
     }
-    .working{
-        border:none;
-    }
+    
 }
 @media (max-width:800px){
     .working .right img{
