@@ -1,9 +1,11 @@
 var homes = document.getElementById("home");
 var works = document.getElementById("work");
 var resumes = document.getElementById("resume");
+var resumeBtns = document.getElementById("resumebtn");
 var item1 = document.getElementById("item1");
 var item2 = document.getElementById("item2");
 var item3 = document.getElementById("item3");
+
 
 function work(){
     homes.style.display = "none"
@@ -30,6 +32,18 @@ function home(){
 
 }
 function resume(){
+    homes.style.display = "none"
+    works.style.display = "none"
+    resumes.style.display = "block"
+    works.style.transition = "0s"
+    homes.style.transition = "0s"
+    resumes.style.transition = "0.5s"
+    item1.style.color = "orangered"
+    item2.style.color = "orangered"
+    item3.style.color = "white"
+
+}
+function resumebtn(){
     homes.style.display = "none"
     works.style.display = "none"
     resumes.style.display = "block"
