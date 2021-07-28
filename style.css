@@ -354,11 +354,9 @@ body{
         width:120px;
         height: 270px;
     }
-    .working .left h1{
-        font-size: 2.5rem;
+    .working{
+        border:none;
     }
-    .working .left p{
-        width:450px
 }
 @media (max-width:800px){
     .working .right img{
