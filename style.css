@@ -107,7 +107,7 @@ body{
 }
 .home{
     position: absolute;
-    display: none;
+/*     display: none; */
     display: block;
     flex-direction: row;
     top:10%;
@@ -117,9 +117,7 @@ body{
     border:2px solid white;
     overflow:hidden;
 }
-.home{
-    transform: translateX(0%);
-}
+
 .left{
     position: absolute;
     top:20%;
@@ -270,7 +268,7 @@ body{
     overflow:hidden;
 }
 .resume{
-    transform: translateX(110%);
+    display: none;
 }
 .resume img{
     box-shadow: 1px 1px 20px cyan;
