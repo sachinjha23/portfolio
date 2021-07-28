@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!-- <script src="https://use.fontawesome.com/b3735a22de.js"></script>    -->
+    <script
+      src="https://kit.fontawesome.com/413a97908b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sachin Jha-Portfolio</title>
+    <link rel="icon" href="logo.png">
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <h2>◤ 𝕾 𝖆 𝖈 𝖍 𝖎 𝖓 ◢</h2>
+      </div>
+      <div class="items">
+        <ul>
+          <li>
+            <a href="#" class="item active" onclick="home()" id="item1"
+              ><i class="fas fa-home"></i> &nbsp;Home</a
+            >
+          </li>
+          <li>
+            <a href="#" class="item" onclick="work()" id="item2"
+              ><i class="fas fa-briefcase"></i> &nbsp;Work</a
+            >
+          </li>
+          <li>
+            <a href="#" class="item" onclick="resume()" id="item3"
+              ><i class="fa fa-address-card" aria-hidden="true"></i>
+              &nbsp;Resume</a
+            >
+          </li>
+          <!-- <li>
+            <a href="#" class="item"
+              ><i class="fas fa-user-secret"></i> &nbsp;About Me</a
+            >
+          </li> -->
+        </ul>
+      </div>
+      <div class="toggleicon" id="toggle-icon" onclick="slide()">
+        <span id="line1"></span>
+        <span id="line2"></span>
+        <span id="line3"></span>
+      </div>
+      <div class="toggle" id="toggle-list">
+        <ul>
+          <li>
+            <a href="#" class="item" onclick="home()" id="item1"
+              ><i class="fas fa-home"></i> &nbsp;Home</a
+            >
+          </li>
+          <li>
+            <a href="#" class="item" onclick="work()" id="item2"
+              ><i class="fas fa-briefcase"></i> &nbsp;Work</a
+            >
+          </li>
+          <li>
+            <a href="#" class="item" onclick="resume()" id="item3"
+              ><i class="fa fa-address-card" aria-hidden="true"></i>
+              &nbsp;Resume</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="home" id="home">
+        <div class="left">
+          <h1>
+            I Am<br />Professional<br /><span><h1>Web-Designer</h1></span>
+          </h1>
+          <div class="links">
+            <button class="btn" id="btn1" onclick="work()">My Work</button>
+            <button class="btn" id="btn2" onclick="resume()">My Resume</button>
+          </div>
+        </div>
+        <div class="right">
+          <h3>I am</h3>
+          <h1>Sachin<br />Jha</h1>
+          <div class="image">
+            <img src="robot.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="working"
+        id="work"
+        style="
+          transform: translateX(110%);
+          height: 650px;
+          margin: 0px 30px;
+          border: 2px solid white;
+        "
+      >
+        <div class="left">
+          <h1 style="color: orangered">What I Do ?</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Necessitatibus placeat temporibus illo similique tempore quasi vero
+            dolorem, id tenetur fuga voluptas quisquam. Minus possimus ea
+            corrupti est sequi non voluptates beatae, minima at sunt, iusto
+            perspiciatis optio harum distinctio adipisci nostrum natus! Amet
+            quod, quisquam ab corrupti, ratione facere perspiciatis aliquid vero
+            cumque cum quos at exercitationem sed natus debitis doloremque
+            nobis, voluptatibus laudantium. Pariatur at fuga hic, cupiditate
+            incidunt non deserunt quo. A ut totam quas quae reiciendis
+            cupiditate dolorem tempora magnam vel, est corrupti sapiente
+            officia? Corrupti odit molestias nesciunt beatae vel adipisci
+            incidunt velit quae voluptatibus voluptate.
+          </p>
+          <div class="boxes">
+            <div class="box" id="box1">
+              <h3>NO. Of Projects</h3>
+              <h4>69</h4>
+            </div>
+            <div class="box" id="box2">
+              <h3>User Rating</h3>
+              <h4>4.7/5</h4>
+            </div>
+            <div class="box" id="box3">
+              <h3>Time Delay</h3>
+              <h4>0%</h4>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img src="robot2.png" alt="" />
+        </div>
+      </div>
+      <div class="resume" id="resume">
+        <img src="resume.jpg" alt="" />
+        <h1>Here's My</h1>
+        <h2>Resume</h2>
+        <img src="robot.png" alt="" id="resumerobot" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
